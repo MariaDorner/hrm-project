@@ -1,0 +1,42 @@
+.personalinfo {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.info-title {
+  border-bottom: 1px solid #99a98f;
+  color: #3d4439;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.info-cl {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+}
+
+.infolabel-container,
+.infodetail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.info-label {
+  color: #99a98f;
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+}
+.info-detail {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
